@@ -1,0 +1,76 @@
+.container{
+    box-sizing: border-box;
+    background-color: lightgray;
+    color: black;
+    width: 100%;
+    min-height: 95%;
+    padding: 2rem;
+    border: 8px solid darkcyan;
+}
+
+.edusection, .worksection{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.personalsection{
+    border-bottom: 10px double black;
+}
+
+.eduinfo, .workdetails{
+    display: flex;
+    flex-direction: row;    
+    font-size: small;
+}
+
+.workdetails > div , .eduinfo > div {
+    width: 40%;
+    margin-right: 1rem;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.companyinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1px;
+}
+
+h1, h2{
+    text-align: justify;
+}
+
+h1{
+    font-size: x-large;
+}
+
+.contactinfo{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+ol{
+    padding: 0;
+    margin: 0;
+}
+
+.date{
+    font-size:small;
+    color: darkslategrey;
+}
+
+p{
+    margin: 2px;
+}
+
+pre{
+    margin: 0;
+    text-align: justify;
+    width: 50%;
+    white-space: pre-wrap; 
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
