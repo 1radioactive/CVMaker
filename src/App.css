@@ -16,6 +16,7 @@
 .formelement{
   width: 30%;
   margin: 2rem;
+  color: white;
   align-self: center;
 }
 
@@ -45,7 +46,7 @@
 
   .formelement{
     width: 100%;
-    color: white;
+    margin: 1%;
   }
 
   form{

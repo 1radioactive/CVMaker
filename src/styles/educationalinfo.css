@@ -32,7 +32,8 @@
 
 .input-group input, textarea {
     width: 100%;          
-    padding: 8px;         
+    padding: 8px;  
+    color: white;       
     box-sizing: border-box; 
     background-color: #1a1a1a;
 }
@@ -86,7 +87,7 @@ label > button:hover{
         width: 120px;         
     }
     .input-group input, textarea {
-        width: 80%;          
+        width: 100%;          
         box-sizing: border-box; 
         background-color: #1a1a1a;
     }
